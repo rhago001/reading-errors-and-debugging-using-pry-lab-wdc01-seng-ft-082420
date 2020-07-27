@@ -17,7 +17,7 @@ def selection(num)
   when num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
     
-  when num = 2
+  when 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
