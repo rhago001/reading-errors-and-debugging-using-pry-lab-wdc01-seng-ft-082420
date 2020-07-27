@@ -14,7 +14,7 @@ end
 
 def selection(num)
   case
-  when num = 1
+  when 1
      "YUM YUM MUNCH MUNCH MUNCH"
     
   when 2
