@@ -11,7 +11,9 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-
+def runner
+prompt_user
+ selection(get_user_input)
 def selection(num)
   case
   when 1
@@ -23,7 +25,5 @@ def selection(num)
 end
 
 
-def runner
-prompt_user
- selection(get_user_input)
+
 end
