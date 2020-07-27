@@ -14,10 +14,10 @@ end
 
 def selection(num)
   case
-  if num = 1
+  when num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
     
-  elsif num = 2
+  when num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
