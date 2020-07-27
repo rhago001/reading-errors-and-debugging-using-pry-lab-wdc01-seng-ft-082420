@@ -13,6 +13,7 @@ end
 
 
 def selection(num)
+  case
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
     
