@@ -4,13 +4,13 @@ require 'pry'
 def get_user_input
   gets.chomp
 end
-
+binding.pry
 def prompt_user
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
 end
-binding.pry
+
 
 def selection(num)
   if num = 1
