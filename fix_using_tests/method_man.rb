@@ -9,5 +9,5 @@ end
 player_1 = "Jay-Z"
 player_2 = "Beyonce"
 def play_game(player_2)
-  puts "#{player_1} is better than #{player_2}"
+ "#{player_1} is better than #{player_2}"
 end
